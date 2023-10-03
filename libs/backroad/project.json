@@ -12,8 +12,10 @@
         "tsConfig": "libs/backroad/tsconfig.lib.json",
         "packageJson": "libs/backroad/package.json",
         "main": "libs/backroad/src/index.ts",
-        "updateBuildableProjectDepsInPackageJson":true,
-        "assets": ["libs/backroad/**/public/*"]
+        "assets": ["libs/backroad/**/public/*"],
+        "generateLockfile": false,
+        "updateBuildableProjectDepsInPackageJson": true,
+        "buildableProjectDepsInPackageJsonType": "dependencies"
       }
     },
     "publish": {
